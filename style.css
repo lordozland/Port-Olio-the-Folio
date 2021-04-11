@@ -21,6 +21,15 @@
 
   }
 
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+    background-color: var(--fame);
+    margin: 128px;
+    justify-content: center;
+  }
+
 body {  
     background-color: var(--night);
     color: var(--pulse);
@@ -28,7 +37,7 @@ body {
 }
 
 body p {
-
+    
 }
 
 h1 {
@@ -39,4 +48,10 @@ nav p {
     color: var(--fame);
     margin-left: 28px;
     margin-right: 28px;
+}
+
+div {
+    margin: 28px;
+    box-sizing: border-box;
+    box-shadow: #000000;
 }
