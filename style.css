@@ -12,13 +12,17 @@ body {
 }
 
 header {
-    font-size: 200%;
+    font-size: 500%;
 }
 
 section {
     border-radius: 20px;
     padding: 50px;
 
+}
+
+section header {
+    font-size: 200%;
 }
 
 .My {
