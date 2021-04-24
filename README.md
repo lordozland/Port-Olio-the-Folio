@@ -13,6 +13,8 @@ Stay blessed
 
 What am I supposed to be doing here (in life)?
 
+///////  Color scheme is burning my eyes. 
+
 Grading Requirements
 This homework is graded based on the following criteria:
 

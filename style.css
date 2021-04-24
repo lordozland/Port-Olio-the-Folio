@@ -1,14 +1,20 @@
 * {
     margin: 25px;
-    text-align: center;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: black;
     color: antiquewhite;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header {
@@ -23,12 +29,15 @@ section {
 
 section header {
     font-size: 200%;
+    
 }
+
 
 .My {
     font-family: Arial, Helvetica, sans-serif;
     background-color: gold;
     color: saddlebrown;
+    text-align: left;
 }
 
 .Work {
@@ -40,10 +49,12 @@ section header {
 .Is {
     background-color: rgba(0, 255, 255, 0.795);
     color: rgba(255, 0, 0, 0.596);
+    font-family: fantasy;
 }
 
-.Slip {
+.Here {
     background-color: greenyellow;
-    color: white;
+    color: rgba(106, 172, 167, 0.863);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
