@@ -17,8 +17,12 @@ main {
     flex-wrap: wrap;
 }
 
-header {
-    font-size: 500%;
+.body-header {
+    font-size: 400%;
+    display: flex;
+    background-color: teal;
+    justify-content: space-between;
+    text-align: center;
 }
 
 section {
