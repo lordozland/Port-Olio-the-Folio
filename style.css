@@ -1,15 +1,13 @@
 * {
     margin: 25px;
-    font-size: 50px;
+    font-size: 1;
     box-sizing: border-box;
 }
 
 body {
     background-color: black;
-    color: antiquewhite;
+    color: white;
     padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 main {
@@ -17,17 +15,17 @@ main {
     flex-wrap: wrap;
 }
 
-.body-header {
+header {
     font-size: 400%;
-    display: flex;
-    background-color: teal;
-    justify-content: space-between;
     text-align: center;
 }
 
 section {
     border-radius: 20px;
     padding: 50px;
+    flex: 1 0 300px;
+    padding: 10px;
+    text-align: left;
 
 }
 
