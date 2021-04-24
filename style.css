@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgba(0, 255, 255, 0.795);
+    background-color: black;
     padding: 20px;
 }
 
@@ -14,8 +14,23 @@ header {
     font-size: 200%;
 }
 
-.Slip 1 {
-    background-color: black;
+.My {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+}
+
+.Work {
+    background-color: peachpuff;
+    font-family: cursive;
+
+}
+
+.Is {
+    background-color: rgba(0, 255, 255, 0.795);
+}
+
+.Slip {
+    background-color: greenyellow;
     color: white;
 
 }
