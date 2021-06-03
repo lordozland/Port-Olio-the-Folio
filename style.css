@@ -32,12 +32,10 @@ div {
 
 .abtme, .muzak, .life {
     background-color: var(--brutango);
-}
+}  
 
 .tops {
-
+    font-size: 150%;
+    text-shadow: 2px 5px black;
+    color: whitesmoke;
 }
-
-.thoughts (
-
-)
