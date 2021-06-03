@@ -26,9 +26,34 @@
 
 // document.getElementById("myBtn").addEventListener("click", myFunction);
 
-function myFunction() {
+function hizzle() {
   document.getElementsByClassName("hizzle");
   console.log("Done");
   document.location='https://soundcloud.com/user-234357210'
-}   
+};   
+
+function ABF() {
+    document.getElementsByClassName("Algi");
+    console.log("Algi");
+    // document.location='https://soundcloud.com/user-234357210'
+  };   
+
+function Excelli() {
+    document.getElementsByClassName("Ran");
+    console.log("Ran");
+    // document.location='https://soundcloud.com/user-234357210'
+  };  
+
+function Genorat() {
+    document.getElementsByClassName("For");
+    console.log("For");
+    // document.location='https://soundcloud.com/user-234357210'
+  };  
+
+function Nothing() {
+    document.getElementsByClassName("Mayor");
+    console.log("Mayor");
+    // document.location='https://soundcloud.com/user-234357210'
+  };  
+
 
