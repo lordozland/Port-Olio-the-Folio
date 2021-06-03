@@ -35,19 +35,19 @@ function hizzle() {
 function ABF() {
     document.getElementsByClassName("Algi");
     console.log("Algi");
-    // document.location='https://soundcloud.com/user-234357210'
+    document.location='https://lordozland.github.io/AgainBecauseFail/'
   };   
 
 function Excelli() {
     document.getElementsByClassName("Ran");
     console.log("Ran");
-    // document.location='https://soundcloud.com/user-234357210'
+    document.location='https://lordozland.github.io/WC_Horizon_Excellence/'
   };  
 
 function Genorat() {
     document.getElementsByClassName("For");
     console.log("For");
-    // document.location='https://soundcloud.com/user-234357210'
+    document.location='https://lordozland.github.io/Metal-Name-Generator/'
   };  
 
 function Nothing() {

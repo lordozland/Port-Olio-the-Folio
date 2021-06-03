@@ -9,12 +9,19 @@
     --writz: rgb(125, 185, 219);
 }
 
-body {
+body {  
     background-color: var(--dark);
+}   
+
+.full {
+    background-color: var(--writz);
+    margin: 0px;
+    padding: 0px;   
+    border-width: 0px;
+    border-radius: 0px;
 }
 
 div {
-    background-color: var(--writz);
     margin: 10px;
     padding: 5px;
     border-style: dashed;   
@@ -24,15 +31,17 @@ div {
 }
 
 .header {
+    background-color: var(--brutango);
     font-size: 400%;
     text-align: right;
-    color: var(--brutango);
+    color: var(--writz);
     text-shadow: 2px 2px black;
     padding-right: 50px;
 }
 
-.abtme, .muzak, .life, .cherry {
+.abtme, .muzak, .life, .cherry, .Picture {
     background-color: var(--brutango);
+    height: 250px;
 }  
 
 .tops {
@@ -70,4 +79,15 @@ div {
 
 li {
     margin-left: 30px;
+}
+
+#Ducky {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 5px;
+    width: 85%;
+    height: 100%;
+    align-items: center;
 }
