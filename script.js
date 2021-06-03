@@ -29,5 +29,6 @@
 function myFunction() {
   document.getElementsByClassName("hizzle");
   console.log("Done");
+  document.location='https://soundcloud.com/user-234357210'
 }   
 
