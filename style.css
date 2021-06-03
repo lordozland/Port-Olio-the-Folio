@@ -36,6 +36,10 @@ div {
 
 .tops {
     font-size: 150%;
-    text-shadow: 2px 5px black;
+    text-shadow: 2px 2px black;
     color: whitesmoke;
+}
+
+.hizzle {
+    background-color: var(--writz);
 }
