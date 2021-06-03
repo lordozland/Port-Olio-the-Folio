@@ -7,7 +7,6 @@
     --dark: rgba(82, 74, 74, 0.363);
     --brutango: rgba(224, 14, 14, 0.767);
     --writz: rgb(125, 185, 219);
-
 }
 
 body {
@@ -16,19 +15,29 @@ body {
 
 div {
     background-color: var(--writz);
-    margin: 25px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     border-style: dashed;
     border-width: 5px;
     border-color: black;
+    border-radius: 30px;
 }
 
 .header {
     font-size: 400%;
     text-align: center;
-    border-radius: 30px;
+    color: var(--brutango);
+    text-shadow: 2px 2px black;
 }
 
 .abtme, .muzak, .life {
     background-color: var(--brutango);
 }
+
+.tops {
+
+}
+
+.thoughts (
+
+)
