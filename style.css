@@ -1,5 +1,5 @@
 * {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 125%;
 }
 
@@ -32,8 +32,8 @@ div {
 
 .header {
     background-color: var(--brutango);
-    font-size: 400%;
-    text-align: right;
+    font-size: 300%;
+    text-align: center;
     color: var(--writz);
     text-shadow: 2px 2px black;
     padding-right: 50px;
@@ -42,6 +42,7 @@ div {
 .abtme, .muzak, .life, .cherry, .Picture {
     background-color: var(--brutango);
     height: 250px;
+    font-size: 90%;
 }  
 
 .tops {
