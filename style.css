@@ -16,14 +16,13 @@ body {
 .full {
     background-color: var(--writz);
     margin: 0px;
-    padding: 0px;   
     border-width: 0px;
     border-radius: 0px;
 }
 
 div {
     margin: 10px;
-    padding: 5px;
+    padding: 25px;
     border-style: dashed;   
     border-width: 5px;
     border-color: black;
@@ -36,7 +35,6 @@ div {
     text-align: center;
     color: var(--writz);
     text-shadow: 2px 2px black;
-    padding-right: 50px;
 }
 
 .abtme, .muzak, .life, .cherry, .Picture {
