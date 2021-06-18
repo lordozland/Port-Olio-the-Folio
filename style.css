@@ -60,13 +60,14 @@ div {
     text-align: center;
     color: var(--writz);
     text-shadow: 2px 2px black;
-    font-size: 250%;
+    font-size: 100%;
 }  
 
 .order {
     background-color: var(--brutango);
     font-size: 250%;
     color: var(--writz);
+    text-align: center;
 }
 
 .Algi, .Ran, .For, .Mayor {
