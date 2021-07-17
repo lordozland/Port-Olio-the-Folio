@@ -1,93 +1,166 @@
-* {
-    font-family: 'Merriweather', serif;
-    font-size: 125%;
-}
-
 :root {
-    --dark: rgba(82, 74, 74, 0.363);
-    --brutango: rgba(224, 14, 14, 0.767);
-    --writz: rgb(125, 185, 219);
-}
-
-body {  
-    background-color: var(--dark);
-}   
-
-.full {
-    background-color: var(--writz);
-    margin: 0px;
-    border-width: 0px;
-    border-radius: 0px;
-}
-
-div {
-    margin: 10px;
-    padding: 25px;
-    border-style: dashed;   
-    border-width: 5px;
-    border-color: black;
-    border-radius: 30px;
-}
-
-.header {
-    background-color: var(--brutango);
-    font-size: 300%;
+    --primary: #389393;
+    --secondary: #f5a25d;
+    --tertiary: #fa7f72;
+    --quatrinary: #6c6b67;
+    --light: #ebebeb;
+    --dark: #182c23;
+    --error: rgb(228, 46, 1);
+    --border-radius: 0.3rem;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: var(--quatrinary);
+  }
+  
+  header {
+    padding: 40px;
     text-align: center;
-    color: var(--writz);
-    text-shadow: 2px 2px black;
-}
-
-.abtme, .muzak, .life, .cherry, .Picture {
-    background-color: var(--brutango);
-    height: 250px;
-    font-size: 90%;
-}  
-
-.tops {
-    font-size: 150%;
-    text-shadow: 2px 2px black;
-    color: whitesmoke;
-}
-
-.hizzle {
-    background-color: var(--writz);
-}
-
-.cherry {
-    background-color: var(--brutango);
+    background: var(--primary);
+    color: var(--secondary);
+    border-bottom-style: solid;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  
+  aside {
+    flex: 0;
+    background-color: var(--tertiary);
+    padding: 80px;
+    text-align: left;
+    color: var(--light);
+  }
+  
+  nav {
+    display: flex;
+    background-color: var(--secondary);
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    min-height: 100%;
+    margin: 0px auto;
+    border: 3px solid var(--primary);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: medium;
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 50px;
+    background-color: #ebebeb;
+  }
+  
+  .add-dish-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    min-height: 100%;
+    min-width: 35%;
+    margin: 5px auto;
+    border: 3px solid var(--primary);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: medium;
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 50px;
     text-align: center;
-    color: var(--writz);
-    text-shadow: 2px 2px black;
-    font-size: 100%;
-}  
-
-.order {
-    background-color: var(--brutango);
-    font-size: 250%;
-    color: var(--writz);
+    background-color: var(--tertiary);
+  }
+  
+  .edit-dish-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    min-height: 100%;
+    min-width: 35%;
+    margin: 5px auto;
+    border: 3px solid var(--primary);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: medium;
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 50px;
     text-align: center;
-}
-
-.Algi, .Ran, .For, .Mayor {
-    border-width: 5px;
-    border-color: black;
-    border-radius: 30px;
-    border-style: dashed;   
-    background-color: var(--writz);
-    font-family: 'Dancing Script', cursive;
-}
-
-li {
-    margin-left: 30px;
-}
-
-#Ducky {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
+    background-color: var(--tertiary);
+  }
+  
+  /* CARDS */
+  .dish-card {
+    margin: 20px;
+    flex: 0 1 300px;
     padding: 5px;
-    width: 85%;
-    height: 100%;
+    width: 35%;
+    min-height: 100%;
+    min-width: 35%;
+    border: 3px solid var(--primary);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: medium;
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  
+  .menu-card {
+    margin: 50px;
+    flex: 0 1 300px;
+    padding: 5px;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+    border-style: groove;
+    border-width: thick;
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  
+  .card-header {
+    color: var(--light);
+    margin: 0;
+    background-color: var(--secondary);
+    padding: 0.625rem;
+    border: 3px solid var(--primary);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: medium;
+  }
+
+  .has-nuts {
+    color: var(--error)
+  }
+
+  .dish-card-header {
+    font-size: 1.5rem;
+    color: var(--tertiary);
+    margin: 0;
+    background-color: var(--light);
+    padding: 0.625rem;
+    border-bottom-style: solid;
+  }
+  
+  .card-body {
+    padding: 2.5%;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  /* LAYOUT */
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
     align-items: center;
-}
+  }
+  
