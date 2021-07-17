@@ -13,4 +13,14 @@ router.get('/', async (req, res) => {
   res.render('all');
 });
 
+router.get('/navi', async (req, res) => {
+  // Add a comment describing the purpose of the render method
+  // This method is rendering the 'all' Handlebars.js template. This is how we connect each route to the correct template.
+  res.render('navi');
+});
+
+router.get('*', function (req, res) {
+  res.render('404');
+});
+
 module.exports = router;
