@@ -33,11 +33,13 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+router.get('/', async (req, res) => {
+    res.render('home')
+})
 
+// app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use(require('./config/connection'));
+// app.use(require('./config/connection'));
 
 //
 
