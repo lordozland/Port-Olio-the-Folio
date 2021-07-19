@@ -1,16 +1,19 @@
 {
-  "name": "potluck-party",
+  "name": "port-olio-the-folio",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "My Portpholio",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordozland/Port-Olio-the-Folio.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/lordozland/Port-Olio-the-Folio/issues"
+  },
+  "homepage": "https://github.com/lordozland/Port-Olio-the-Folio#readme"
 }
